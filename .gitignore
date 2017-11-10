@@ -1,5 +1,5 @@
-# Compiled class file
-*.class
+# Built artifacts
+/target/
 
 # Log file
 *.log
