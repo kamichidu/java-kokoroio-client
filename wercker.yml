@@ -1,0 +1,9 @@
+---
+box: maven:3-jdk-7-alpine
+
+build:
+  steps:
+    - script:
+        name: mvn test
+        code: |
+          mvn test
