@@ -21,22 +21,21 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/kamichidu/java-kokoroio-client/</url>
-        <connection>scm:git:https://github.com/kamichidu/java-kokoroio-client/</connection>
-        <developerConnection>scm:git:https://github.com/kamichidu/java-kokoroio-client/</developerConnection>
+        <url>${project.url}</url>
+        <connection>scm:git:${project.url}</connection>
+        <developerConnection>scm:git:${project.url}</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>github.com</name>
-            <url>${project.scm.developerConnection}</url>
+            <url>${project.url}</url>
         </repository>
     </distributionManagement>
 
     <issueManagement>
-        <url>https://github.com/kamichidu/java-kokoroio-client/issues</url>
+        <url>${project.url}/issues</url>
     </issueManagement>
 
     <build>
