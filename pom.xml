@@ -3,7 +3,7 @@
     <groupId>xyz.kamichidu</groupId>
     <artifactId>kokoroio-client</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>kokoroio-client</name>
     <url>https://github.com/kamichidu/java-kokoroio-client</url>
     <description>https://kokoro.io client library for java</description>
@@ -24,7 +24,7 @@
         <url>${project.url}</url>
         <connection>scm:git:${project.url}</connection>
         <developerConnection>scm:git:${project.url}</developerConnection>
-        <tag>0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
