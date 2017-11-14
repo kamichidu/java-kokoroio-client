@@ -96,13 +96,14 @@
                 <artifactId>github-release-plugin</artifactId>
                 <version>1.2.0</version>
                 <configuration>
-                    <releaseName>@{project.version}</releaseName>
-                    <tag>@{project.version}</tag>
+                    <releaseName>${project.version}</releaseName>
+                    <tag>${project.version}</tag>
                     <fileSets>
                         <fileSet>
                             <directory>${project.build.directory}</directory>
                             <includes>
-                                <include>${project.artifactId}-@{project.version}*.jar</include>
+                                <include>${project.artifactId}-${project.version}-javadoc.jar</include>
+                                <include>${project.artifactId}-${project.version}-sources.jar</include>
                             </includes>
                         </fileSet>
                     </fileSets>
