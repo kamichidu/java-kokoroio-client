@@ -29,8 +29,9 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <url>${project.url}</url>
+            <id>temporary</id>
+            <name>Found artifacts on</name>
+            <url>file://${project.build.directory}</url>
         </repository>
     </distributionManagement>
 
